@@ -701,7 +701,7 @@ def process_file(input_path, output_path=None, remove_docstrings=False):
     except Exception as e:
         print(f"Error processing {input_path}: {e}", file=sys.stderr)
 
-if __name__ == "__main__":
+def main():
     # Check if we should run CLI or GUI
     if len(sys.argv) > 1:
         main_cli()
@@ -710,3 +710,6 @@ if __name__ == "__main__":
         window = PythonCommentRemoverGUI()
         window.show()
         sys.exit(app.exec())
+
+if __name__ == "__main__":
+    main()
