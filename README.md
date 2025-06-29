@@ -27,9 +27,12 @@ pip install crpy-tools
 ```
 ### Example usage
 ```bash
-# show help
+# using GUI:
+crpy
+
+# show help:
 crpy -h
 
-# remove all comments from script.py
+# using CLI to remove all comments:
 crpy script.py -o script_min.py -d
 ```
