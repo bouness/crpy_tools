@@ -1,8 +1,8 @@
-# crpy-tools - Comment Removal Tools for Python
+# crpy - Comment Removal for Python
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-crpy-tools is a powerful tool for removing comments from Python files while preserving code structure and indentation. It offers both command-line interface (CLI) and graphical user interface (GUI) options for maximum flexibility.
+crpy is a powerful tool for removing comments from Python files while preserving code structure and indentation. It offers both command-line interface (CLI) and graphical user interface (GUI) options for maximum flexibility.
 
 ## Features
 
@@ -24,3 +24,12 @@ crpy-tools is a powerful tool for removing comments from Python files while pres
 ### Install from PyPI
 ```bash
 pip install crpy-tools
+```
+### Example usage
+```bash
+# show help
+crpy -h
+
+# remove all comments from script.py
+crpy script.py -o script_min.py -d
+```

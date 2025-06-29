@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "crpy-tools"
-version = "0.1.0"
+version = "0.1.1"
 description = "A CLI and GUI tool built with PySide6"
 readme = "README.md"
 license = {file = "LICENSE"}
@@ -17,7 +17,7 @@ dependencies = [
 requires-python = ">=3.8"
 
 [project.scripts]
-crpy = "crpy.__main__:main"  # Update to match your CLI entry point
+crpy = "crpy_tools.__main__:main"
 
 [project.urls]
 Homepage = "https://github.com/bouness/crpy_tools"
